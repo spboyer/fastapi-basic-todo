@@ -61,3 +61,5 @@ jobs:
           app-name: 'fastapi-todo'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A205A43AEBF6406BB9525C82A18F2A8A }}
+
+       # python -m uvicorn application:app --host 0.0.0.0   

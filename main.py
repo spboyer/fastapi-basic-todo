@@ -61,5 +61,5 @@ async def delete_todo(id: int):
     except:
         raise HTTPException(status_code=404, detail="Todo Not Found")
 
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)
+#if __name__ == "__main__":
+#    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)

@@ -1,9 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List
-import os, uvicorn
-
-port = os.environ["PORT"]
 
 class Todo(BaseModel):
 
